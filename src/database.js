@@ -17,8 +17,17 @@ export class Database {
         fs.writeFile(databasePath, JSON.stringify(this.#database)) //writefile só aceita string, por isso transformo em string
     }
 
-    select(table){
-        const data = this.#database[table] ?? []
+    select(table, search){
+        let data = this.#database[table] ?? []
+
+        if(search.nome || search.email){
+            data = data.filter(object => {
+                return Object.entries(search).some(([key, value]) => {
+                    return object[key].toLowerCase().includes(value.toLowerCase())
+                })
+            })
+
+        }
 
         return data
     }
