@@ -17,7 +17,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
   <li>[x] Listar Usuários</li>
   <li>[x] Criar Usuários</li>
   <li>[x] Editar Usuários</li>
-  <li>[x] Deleter Usuários</li>
+  <li>[x] Deletar Usuários</li>
 </ul>
 
 ## 📦️ Como baixar e rodar o projeto
