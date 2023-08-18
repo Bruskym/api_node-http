@@ -8,8 +8,6 @@ API simples feita usando apenas o modulo de HTTP nativo do node, sem a utilizaç
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
 
 ## Funcionalidades
 
